@@ -78,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <span><b>Indeed portfolio url:</b> https://profile.indeed.com/p/serhiis-mcfv36d </span>
                 </span>
                 <br/>
+                <br/>
                 </div>
                 `;
                 break;
