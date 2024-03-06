@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function executeCommand(command) {
         switch(command) {
             case 'help':
-                output.innerHTML += `<div>Available commands: help, website, contact</div>`;
+                output.innerHTML += `<div>Available commands: about, website, contact, help</div>`;
                 break;
             case 'about':
                 output.innerHTML += ` 
@@ -102,13 +102,13 @@ document.addEventListener("DOMContentLoaded", function() {
                   <br/>
                   <span>● I especially like to do Pentesting and&nbsp;</span>
                   <span>developing hacking skills,</span>
-                  <br />
+                  <br/>
                   <span>have three years of experience.</span>
-                  <br />
+                  <br/>
                   <span>● I write test tools in Python.</span>
-                  <br />
+                  <br/>
                   <span>●The languages I speak: Ukrainian, English.</span>
-                  <br />
+                  <br/>
                 </span>
                 <img src="me.jpg" alt="image" class="home-image" />
               </div>
