@@ -92,7 +92,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                   }
                 </style>
-                <br/>
                 <div>                
                 <div class="home-container">
                 <span class="home-text">
