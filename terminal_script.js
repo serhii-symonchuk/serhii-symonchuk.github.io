@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <br/>
                   <span>●The languages I speak: Ukrainian, English.</span>
                   <br/>
+                  <br/>
                 </span>
               </div>
               </div>`;
@@ -68,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
             case 'contact':
                 output.innerHTML += `
                 <div>
+                <br/>
                 <span>
                     <span><b>Contact me:</b> serhiisymonchukca@gmail.com | LinkedIn: Serhii Symonchuk (@symonchuk) | +17053807910 </span>
                 <br/>
@@ -75,6 +77,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <br/>
                     <span><b>Indeed portfolio url:</b> https://profile.indeed.com/p/serhiis-mcfv36d </span>
                 </span>
+                <br/>
                 </div>
                 `;
                 break;
