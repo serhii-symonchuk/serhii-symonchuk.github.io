@@ -13,6 +13,8 @@ body {
 }
 
 .terminal {
+    position: fixed;
+    bottom: 0;
     width: 969px;
     height: 431px;
     width: 100%;
