@@ -34,7 +34,7 @@
 .index-container5 {
   display: contents;
 }
-.index-social-bar {
+.bottom {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
@@ -48,18 +48,4 @@
 .index-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-}
-@media(max-width: 767px) {
-  .index-social-bar {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-}
-@media(max-width: 479px) {
-  .index-social-bar {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
-  }
 }
