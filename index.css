@@ -16,6 +16,10 @@
   margin: auto;
   position: static;
 }
+@media (min-width: 10px) {
+  .index-container1 {
+    width: 50%;
+  }
 .index-container2 {
   display: contents;
   position: static;
