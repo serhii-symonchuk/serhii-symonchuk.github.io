@@ -76,9 +76,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     <span><b>Social platforms:</b> Instagram: @bezoodaog | Twitter/X: @bezooda | Facebook: @bezooda</span>
                 <br/>
                     <span><b>Indeed portfolio url:</b> https://profile.indeed.com/p/serhiis-mcfv36d </span>
+                <br/>
                 </span>
-                <br/>
-                <br/>
                 </div>
                 `;
                 break;
