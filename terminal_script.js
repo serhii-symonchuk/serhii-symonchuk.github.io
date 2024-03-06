@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <br/>
                   <span>● I write test tools in Python.</span>
                   <br/>
-                  <span>●The languages I speak: Ukrainian, English.</span>
+                  <span>● The languages I speak: Ukrainian, English.</span>
                   <br/>
                   <br/>
                 </span>
