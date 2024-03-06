@@ -43,55 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 break;
             case 'about':
                 output.innerHTML += ` 
-                <style>
-                .home-container {
-                    width: 100%;
-                    display: flex;
-                    overflow: auto;
-                    min-height: 100vh;
-                    align-items: flex-end;
-                    flex-direction: column;
-                    justify-content: center;
-                  }
-                  .home-image {
-                    width: 200px;
-                    object-fit: cover;
-                  }
-                  @media(max-width: 479px) {
-                    .home-text {
-                      top: 0px;
-                      left: 5px;
-                      width: auto;
-                      bottom: 0px;
-                      height: auto;
-                      margin: auto;
-                      position: absolute;
-                      font-size: 10px;
-                      align-self: flex-start;
-                      text-align: left;
-                    }
-                    .home-text02 {
-                      top: 6px;
-                      left: 6px;
-                      width: var(--dl-size-size-xsmall);
-                      position: absolute;
-                      text-align: left;
-                    }
-                    .home-text04 {
-                      top: 6px;
-                      left: 6px;
-                      width: var(--dl-size-size-xsmall);
-                      position: absolute;
-                      text-align: left;
-                    }
-                    .home-image {
-                      width: auto;
-                      height: 97px;
-                      padding-top: 0px;
-                      margin-right: var(--dl-space-space-unit);
-                    }
-                  }
-                </style>
+
                 <div>                
                 <div class="home-container">
                 <span class="home-text">
