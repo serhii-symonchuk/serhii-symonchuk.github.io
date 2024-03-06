@@ -39,10 +39,10 @@ document.addEventListener("DOMContentLoaded", function() {
     function executeCommand(command) {
         switch(command) {
             case 'help':
-                output.innerHTML += `<div>Available commands: help, about, contact</div>`;
+                output.innerHTML += `<div>Available commands: help, website, contact</div>`;
                 break;
-            case 'about':
-                output.innerHTML += `<div>This is a simple terminal interface created using HTML, CSS, and JavaScript.</div>`;
+            case 'website':
+                output.innerHTML += `<div>This is a simple portfolio website created using HTML, CSS, and JavaScript.</div>`;
                 break;
             case 'contact':
                 output.innerHTML += `<div>Contact me: serhiisymonchukca@gmail.com \\ +75073807910 \\ linked.in\y\symonchuk</div>`;
