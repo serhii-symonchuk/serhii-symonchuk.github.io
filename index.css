@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-end;
+  position: static;
 }
 .index-container1 {
   top: 0px;
@@ -17,16 +18,17 @@
 }
 .index-container2 {
   display: contents;
+  position: static;
 }
 .index-container3 {
   display: flex;
-  position: relative;
+  position: static;
 }
 .index-container4 {
   color: var(--dl-color-gray-black);
   width: 969px;
   height: 431px;
-  position: relative;
+  position: static;
   background-color: 988 (Gray);
 }
 .index-container5 {
