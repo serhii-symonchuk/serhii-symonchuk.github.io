@@ -45,7 +45,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 output.innerHTML += `<div>This is a simple portfolio website created using HTML, CSS, and JavaScript.</div>`;
                 break;
             case 'contact':
-                output.innerHTML += `<div>Contact me: serhiisymonchukca@gmail.com \\ +75073807910 \\ linked.in\y\symonchuk</div>`;
+                output.innerHTML += `<div>Contact me: serhiisymonchukca@gmail.com 
+                +75073807910
+                linked.in\\y\\symonchuk</div>`;
                 break;
             default:
                 output.innerHTML += `<div>Command not found: ${command}</div>`;
