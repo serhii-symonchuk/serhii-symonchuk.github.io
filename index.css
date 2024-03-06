@@ -13,7 +13,7 @@
   right: 0px;
   width: 1631px;
   margin: auto;
-  position: absolute;
+  position: static;
 }
 .index-container2 {
   display: contents;
