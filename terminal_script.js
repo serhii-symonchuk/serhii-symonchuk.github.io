@@ -71,7 +71,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 <span>
                     <span><b>Contact me:</b> serhiisymonchukca@gmail.com | LinkedIn: Serhii Symonchuk (@symonchuk) | +17053807910 </span>
                 <br/>
-                    <span><b>Social platform:</b> Instagram: @bezoodaog | Twitter/X: @bezooda | Facebook: @bezooda</span>
+                    <span><b>Social platforms:</b> Instagram: @bezoodaog | Twitter/X: @bezooda | Facebook: @bezooda</span>
+                <br/>
+                    <span><b>Indeed portfolio url:</b> https://profile.indeed.com/p/serhiis-mcfv36d </span>
                 </span>
                 </div>
                 `;
