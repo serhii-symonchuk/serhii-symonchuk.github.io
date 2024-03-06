@@ -42,22 +42,72 @@ document.addEventListener("DOMContentLoaded", function() {
                 output.innerHTML += `<div>Available commands: help, website, contact</div>`;
                 break;
             case 'about':
-                output.innerHTML += `
-                <div>      
+                output.innerHTML += ` 
+                <style>
+                .home-container {
+                    width: 100%;
+                    display: flex;
+                    overflow: auto;
+                    min-height: 100vh;
+                    align-items: flex-end;
+                    flex-direction: column;
+                    justify-content: center;
+                  }
+                  .home-image {
+                    width: 200px;
+                    object-fit: cover;
+                  }
+                  @media(max-width: 479px) {
+                    .home-text {
+                      top: 0px;
+                      left: 5px;
+                      width: auto;
+                      bottom: 0px;
+                      height: auto;
+                      margin: auto;
+                      position: absolute;
+                      font-size: 10px;
+                      align-self: flex-start;
+                      text-align: left;
+                    }
+                    .home-text02 {
+                      top: 6px;
+                      left: 6px;
+                      width: var(--dl-size-size-xsmall);
+                      position: absolute;
+                      text-align: left;
+                    }
+                    .home-text04 {
+                      top: 6px;
+                      left: 6px;
+                      width: var(--dl-size-size-xsmall);
+                      position: absolute;
+                      text-align: left;
+                    }
+                    .home-image {
+                      width: auto;
+                      height: 97px;
+                      padding-top: 0px;
+                      margin-right: var(--dl-space-space-unit);
+                    }
+                  }
+                </style>
+                <br/>
+                <div>                
                 <div class="home-container">
                 <span class="home-text">
-                  <span>My name is Serhii Symonchuk</span>
-                  <br class="home-text02" />
-                  <span>I study and develop in the field of cybersecurity.</span>
-                  <br class="home-text04" />
-                  <span>I especially like to do Pentesting and&nbsp;</span>
+                  <span>● My name is Serhii Symonchuk</span>
+                  <br/>
+                  <span>● I study and develop in the field of cybersecurity.</span>
+                  <br/>
+                  <span>● I especially like to do Pentesting and&nbsp;</span>
                   <span>developing hacking skills,</span>
                   <br />
                   <span>have three years of experience.</span>
                   <br />
-                  <span>I write test tools in Python.</span>
+                  <span>● I write test tools in Python.</span>
                   <br />
-                  <span>The languages I speak: Ukrainian, English.</span>
+                  <span>●The languages I speak: Ukrainian, English.</span>
                   <br />
                 </span>
                 <img src="me.jpg" alt="image" class="home-image" />
