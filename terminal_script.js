@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 output.innerHTML += `<div>Available commands: help, website, contact</div>`;
                 break;
             case 'website':
-                output.innerHTML += `<div>This is a simple portfolio website created using HTML, CSS, and JavaScript.</div>`;
+                output.innerHTML += `<div>This is a simple portfolio website created using HTML, CSS, and JavaScript. </div>`;
                 break;
             case 'contact':
                 output.innerHTML += `<div>Contact me: serhiisymonchukca@gmail.com 
