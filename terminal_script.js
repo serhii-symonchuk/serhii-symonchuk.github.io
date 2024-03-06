@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(() => {
         document.getElementById("loadingScreen").style.display = "none";
         document.getElementById("terminal").classList.remove("hidden");
-        document.getElementById("output").innerHTML = "<div>Welcome! Write 'help' to see commands.</div>";
+        document.getElementById("output").innerHTML = "<div>Welcome to my portfolio! Write 'help' to see commands.</div>";
         document.getElementById("commandInput").classList.remove("hidden");
 	document.getElementById("commandInput").focus();
     }, 3000);
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     function appendCommand(command) {
-        const formattedCommand = `<div class="command">user@website:~$ ${command}</div>`;
+        const formattedCommand = `<div class="command">guest@portfolio:~$ ${command}</div>`;
         output.innerHTML += formattedCommand;
     }
 
