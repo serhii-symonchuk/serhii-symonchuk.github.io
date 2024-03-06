@@ -1,0 +1,69 @@
+body {
+    font-family: monospace;
+    background-color: #fff;
+    color: #000;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.terminal {
+    width: 969px;
+    height: 431px;
+    width: 100%;
+}
+
+.prompt {
+    display: block;
+    margin-top: 10px;
+    color: #0f0;
+}
+
+.output {
+    margin-top: 10px;
+    max-height: 295px; /* Adjust as needed */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    margin-right: 5px;
+}
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 999; /* Ensure it's above other content */
+}
+
+.loading-animation {
+    font-size: 36px;
+}
+
+.command-input {
+    border: none; /* Remove border */
+    background-color: transparent; /* Transparent background */
+    outline: none; /* Remove outline when focused */
+    width: calc(100% - 50px); /* Adjust width to fit content */
+}
