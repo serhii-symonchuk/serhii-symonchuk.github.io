@@ -69,9 +69,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 output.innerHTML += `
                 <div>
                 <span>
-                    <span><b>Contact me:</b> serhiisymonchukca@gmail.com | LinkedIn: Serhii Symonchuk (@symonchuk)| +17053807910 </span>
+                    <span><b>Contact me:</b> serhiisymonchukca@gmail.com | LinkedIn: Serhii Symonchuk (@symonchuk) | +17053807910 </span>
                 <br/>
-                    <span><b>Social platform:</b> Instagram: @bezoodaog | Twitter a.k.a. X: @bezooda | Facebook: @bezooda</span>
+                    <span><b>Social platform:</b> Instagram: @bezoodaog | Twitter/X: @bezooda | Facebook: @bezooda</span>
                 </span>
                 </div>
                 `;
