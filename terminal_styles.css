@@ -13,11 +13,8 @@ body {
 }
 
 .terminal {
-    position: fixed;
+    position: static;
     bottom: 0;
-    width: 969px;
-    height: 431px;
-    width: 100%;
 }
 
 .prompt {
