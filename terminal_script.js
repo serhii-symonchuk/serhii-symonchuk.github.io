@@ -51,8 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <br/>
                   <span>● I study and develop in the field of cybersecurity.</span>
                   <br/>
-                  <span>● I especially like to do Pentesting and&nbsp;</span>
-                  <span>developing hacking skills, have three years of experience.</span>
+                  <span>● I especially like to do pentesting and developing hacking skills, have three years of experience.</span>
                   <br/>
                   <span>● I write test tools in Python.</span>
                   <br/>
