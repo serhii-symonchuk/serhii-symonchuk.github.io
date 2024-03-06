@@ -43,25 +43,22 @@ document.addEventListener("DOMContentLoaded", function() {
                 break;
             case 'about':
                 output.innerHTML += ` 
-
                 <div>                
                 <div class="home-container">
                 <span class="home-text">
+                  <br/>
                   <span>● My name is Serhii Symonchuk</span>
                   <br/>
                   <span>● I study and develop in the field of cybersecurity.</span>
                   <br/>
                   <span>● I especially like to do Pentesting and&nbsp;</span>
-                  <span>developing hacking skills,</span>
-                  <br/>
-                  <span>have three years of experience.</span>
+                  <span>developing hacking skills, have three years of experience.</span>
                   <br/>
                   <span>● I write test tools in Python.</span>
                   <br/>
                   <span>●The languages I speak: Ukrainian, English.</span>
                   <br/>
                 </span>
-                <img src="me.jpg" alt="image" class="home-image" />
               </div>
               </div>`;
                 break;
@@ -69,7 +66,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 output.innerHTML += `<div>This is a simple portfolio website created using HTML, CSS, and JavaScript. </div>`;
                 break;
             case 'contact':
-                output.innerHTML += `<div>Contact me: serhiisymonchukca@gmail.com | LinkedIn: Serhii Symonchuk (@symonchuk)| +17053807910 </div>`;
+                output.innerHTML += `
+                <div>
+                <span>
+                    <span><b>Contact me:</b> serhiisymonchukca@gmail.com | LinkedIn: Serhii Symonchuk (@symonchuk)| +17053807910 </span>
+                <br/>
+                    <span><b>Social platform:</b> Instagram: @bezoodaog | Twitter a.k.a. X: @bezooda | Facebook: @bezooda</span>
+                </span>
+                </div>
+                `;
                 break;
             default:
                 output.innerHTML += `<div>Command not found: ${command}</div>`;
