@@ -41,6 +41,29 @@ document.addEventListener("DOMContentLoaded", function() {
             case 'help':
                 output.innerHTML += `<div>Available commands: help, website, contact</div>`;
                 break;
+            case 'about':
+                output.innerHTML += `
+                <div>      
+                <div class="home-container">
+                <span class="home-text">
+                  <span>My name is Serhii Symonchuk</span>
+                  <br class="home-text02" />
+                  <span>I study and develop in the field of cybersecurity.</span>
+                  <br class="home-text04" />
+                  <span>I especially like to do Pentesting and&nbsp;</span>
+                  <span>developing hacking skills,</span>
+                  <br />
+                  <span>have three years of experience.</span>
+                  <br />
+                  <span>I write test tools in Python.</span>
+                  <br />
+                  <span>The languages I speak: Ukrainian, English.</span>
+                  <br />
+                </span>
+                <img src="me.jpg" alt="image" class="home-image" />
+              </div>
+              </div>`;
+                break;
             case 'website':
                 output.innerHTML += `<div>This is a simple portfolio website created using HTML, CSS, and JavaScript. </div>`;
                 break;
