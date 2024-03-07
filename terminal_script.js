@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <span><b>Contact me:</b> serhiisymonchukca@gmail.com | LinkedIn: Serhii Symonchuk (@symonchuk) | +17053807910 </span>
                 <br/>
                     <span><b>Social platforms:</b> Instagram: @bezoodaog | Twitter/X: @bezooda | Facebook: @bezooda</span>            
-                <br/>
+                <br/><br/>
                 </span>
                 </div>
                 `;
