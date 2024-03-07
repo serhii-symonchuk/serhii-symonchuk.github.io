@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
               </div>`;
                 break;
             case 'website':
-                output.innerHTML += `<div>This is a simple portfolio website created using HTML, CSS, and JavaScript. </div>`;
+                output.innerHTML += `<div><br/><div>This is a simple portfolio website created using HTML, CSS, and JavaScript. </div><br/></div>`;
                 break;
             case 'contact':
                 output.innerHTML += `
