@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
             case 'hacked':
                 output.innerHTML += `
                 <div>
-                <span><b>muskokabible.com and local servers</b> - </span>
+                <span><b>muskokabible.com and local servers</b> - Muskoka Bible Centre</span>
                 <br/>
                 <span><b>cs.vnu.edu.ua, moodle-cs.vnu.edu.ua, tcs.vnu.edu.ua and local servers</b> - Lesya Ukrainka Volyn National University</span>
                 <br/>
