@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function executeCommand(command) {
         switch(command) {
             case 'help':
-                output.innerHTML += `<div>Available commands: about, website, contact, help</div>`;
+                output.innerHTML += `<div>Available commands: about, website, contact, indeed.</div>`;
                 break;
             case 'about':
                 output.innerHTML += ` 
