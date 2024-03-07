@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function executeCommand(command) {
         switch(command) {
             case 'help':
-                output.innerHTML += `<div>Available commands: about, website, contact, indeed.</div>`;
+                output.innerHTML += `<div>Available commands: about, website, contact, indeed, hacked.</div>`;
                 break;
             case 'about':
                 output.innerHTML += ` 
@@ -81,8 +81,20 @@ document.addEventListener("DOMContentLoaded", function() {
             case 'indeed':
                 output.innerHTML += `
                 <br/>
-                <span><b>Indeed portfolio url:</b> https://profile.indeed.com/p/serhiis-mcfv36d </span>
+                <span><b>Indeed portfolio link:</b> https://profile.indeed.com/p/serhiis-mcfv36d </span>
                 <br/>
+                `;
+                break;
+            case 'hacked':
+                output.innerHTML += `
+                <div>
+                <span><b>muskokabible.com and local servers</b> - </span>
+                <br/>
+                <span><b>cs.vnu.edu.ua, moodle-cs.vnu.edu.ua, tcs.vnu.edu.ua and local servers</b> - Lesya Ukrainka Volyn National University</span>
+                <br/>
+                <span><b>112.137.129.214</b> - Vietnam National University Ha Noi </span>
+                <br/>
+                </div>
                 `;
                 break;
             default:
