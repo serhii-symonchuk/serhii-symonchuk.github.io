@@ -83,12 +83,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 <br/>
                 <span><b>Indeed portfolio link:</b> https://profile.indeed.com/p/serhiis-mcfv36d </span>
                 <br/>
+                <br/>
                 `;
                 break;
             case 'hacked':
                 output.innerHTML += `
                 <div>
-                <br/>
                 <br/>
                 <span><b>muskokabible.com and local servers</b> - Muskoka Bible Centre</span>
                 <br/>
