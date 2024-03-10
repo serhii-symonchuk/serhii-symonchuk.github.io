@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function executeCommand(command) {
         switch(command) {
             case 'help':
-                output.innerHTML += `<div>Available commands: about, website, contact, indeed, hacked.</div>`;
+                output.innerHTML += `<div><br/><span>Available commands: about, website, contact, indeed, roadmap, hacked.</span><br/><br/></div>`;
                 break;
             case 'about':
                 output.innerHTML += ` 
@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
             case 'website':
                 output.innerHTML += `<div><br/><div>This is a simple portfolio website created using HTML, CSS and JavaScript. </div><br/></div>`;
                 break;
+
             case 'contact':
                 output.innerHTML += `
                 <div>
@@ -76,6 +77,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 <br/><br/>
                 </span>
                 </div>
+                `;
+                break;
+            case 'roadmap':
+                output.innerHTML += `
+               <div>
+               <br/>
+               <span>☐ CompTIA PenTest+ → ☐ CISSP → ☐ eCCPT → ☐ CPENT/LPT </span>
+               <br/>
+               <span>Complete: PenTest+ Learning Path by TryHackme, Foundations of Cybersecurity by Google</span>
+               <br/>
+               <span>Reading: PEN-200 by OffSec, Black Hat Python by Justin Setitz and Tim Arnold</span>
+               <br/>
+               <br/>
+               </div>
                 `;
                 break;
             case 'indeed':
