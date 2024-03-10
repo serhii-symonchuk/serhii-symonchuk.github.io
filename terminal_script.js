@@ -83,11 +83,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 output.innerHTML += `
                <div>
                <br/>
-               <span>☐ CompTIA PenTest+ → ☐ CISSP → ☐ eCCPT → ☐ CPENT/LPT </span>
+               <span><b>Roadmap:</b> ☐ CompTIA PenTest+ → ☐ CISSP → ☐ CFR-410 → ☐ eCCPT → ☐ CPENT/LPT </span>
                <br/>
-               <span>Complete: PenTest+ Learning Path by TryHackme, Foundations of Cybersecurity by Google</span>
+               <span><b>Complete:</b> PenTest+ Learning Path by TryHackme, Foundations of Cybersecurity by Google</span>
                <br/>
-               <span>Reading: PEN-200 by OffSec, Black Hat Python by Justin Setitz and Tim Arnold</span>
+               <span><b>Reading:</b> PEN-200 by OffSec, Black Hat Python by Justin Setitz and Tim Arnold</span>
+               <br/>
+               <span><b>Tools-In-Progress:</b> A private tool for automating scanning and checking for vulnerabilities of servers and websites </span>
                <br/>
                <br/>
                </div>
