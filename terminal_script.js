@@ -49,13 +49,13 @@ document.addEventListener("DOMContentLoaded", function() {
                   <br/>
                   <span>● My name is Serhii Symonchuk</span>
                   <br/>
-                  <span>● I study and develop in the field of cybersecurity.</span>
+                  <span>● I study and develop in the field of cybersecurity, have a hacker background and do bug bounty</span>
                   <br/>
-                  <span>● I especially like to do pentesting and developing hacking skills, have three years of experience.</span>
+                  <span>● I especially like to do pentesting and developing hacking skills, have three years of experience</span>
                   <br/>
-                  <span>● I write test tools in Python.</span>
+                  <span>● I write test tools in Python</span>
                   <br/>
-                  <span>● The languages I speak: Ukrainian, English.</span>
+                  <span>● The languages I speak: Ukrainian, English, Russian</span>
                   <br/>
                   <br/>
                 </span>
