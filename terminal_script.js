@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function executeCommand(command) {
         switch(command) {
             case 'help':
-                output.innerHTML += `<div><br/><span>Available commands: about, contact, roadmap, website, indeed, hacked.</span><br/><br/></div>`;
+                output.innerHTML += `<div><br/><span>Available commands: about, contact, roadmap, website, indeed, testing.</span><br/><br/></div>`;
                 break;
             case 'about':
                 output.innerHTML += ` 
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <span>
                     <span><b>Contact me:</b> serhiisymonchukca@gmail.com | LinkedIn: Serhii Symonchuk (@symonchuk) | +17053807910 </span>
                 <br/>
-                    <span><b>Social platforms:</b> Instagram: @bezoodaog | Twitter/X: @bezooda | Facebook: @bezooda</span>            
+                    <span><b>Social platforms:</b> Instagram: @bezoodaog | Twitter/X: @bezooda | Facebook: @bezooda </span>            
                 <br/><br/>
                 </span>
                 </div>
@@ -103,9 +103,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 <br/>
                 `;
                 break;
-            case 'hacked':
+            case 'testing':
                 output.innerHTML += `
                 <div>
+                <br/>
+                <span><b>subdomains of rockstargames.com</b> - Rockstar Games</span>
                 <br/>
                 <span><b>muskokabible.com and local servers</b> - Muskoka Bible Centre</span>
                 <br/>
