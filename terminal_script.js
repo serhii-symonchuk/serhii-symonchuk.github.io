@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function executeCommand(command) {
         switch(command) {
             case 'help':
-                output.innerHTML += `<div><br/><span>Available commands: about, contact, roadmap, website, indeed, testing.</span><br/><br/></div>`;
+                output.innerHTML += `<div><br/><span>Available commands: about, resume, contact, roadmap, website, testing.</span><br/><br/></div>`;
                 break;
             case 'about':
                 output.innerHTML += ` 
@@ -95,10 +95,12 @@ document.addEventListener("DOMContentLoaded", function() {
                </div>
                 `;
                 break;
-            case 'indeed':
+            case 'resume':
                 output.innerHTML += `
                 <br/>
-                <span><b>Indeed portfolio link:</b> https://profile.indeed.com/p/serhiis-mcfv36d </span>
+                <span><b>LinkedIn resume link:</b> https://drive.google.com/file/d/1XgPt4PMg-kAc8QkidXanhaFyb5D4whxj </span>
+                <br/>
+                <span><b>Indeed resume link:</b> https://profile.indeed.com/p/serhiis-mcfv36d </span>
                 <br/>
                 <br/>
                 `;
