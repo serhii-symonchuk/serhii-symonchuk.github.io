@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <br/>
                   <span>● I especially like to do pentesting and developing hacking skills, have three years of experience</span>
                   <br/>
-                  <span>● I write test tools in Python</span>
+                  <span>● I write test tools in Python. Active Kali Linux and Windows user.</span>
                   <br/>
                   <span>● The languages I speak: Ukrainian, English, Russian</span>
                   <br/>
